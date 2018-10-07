@@ -26,13 +26,13 @@
 	</properties>
 
 	<dependencyManagement>
+	<dependencies>
 		<dependency>
 		    <groupId>javax</groupId>
 		    <artifactId>javaee-api</artifactId>
 		    <version>${javaee.version}</version>
 		    <scope>provided</scope>
 		</dependency>
-		<dependencies>
 			<dependency>
 				<groupId>junit</groupId>
 				<artifactId>junit</artifactId>
